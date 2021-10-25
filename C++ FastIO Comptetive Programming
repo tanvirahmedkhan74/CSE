@@ -1,0 +1,36 @@
+#include <bits/stdc++.h>
+
+typedef long long int ll;
+
+#define out std::cout
+#define in std::cin
+#define el std::cout << "\n"
+#define v std::vector
+#define fastio std::ios::sync_with_stdio(false); \
+    std::cin.tie(0); \
+    std::cout.tie(0);
+#define f(i,p,q) for(int i=p;i<q;i++) // p = start index , q = range of index, i = idx identifier
+
+void array_input(ll arr[], int n){
+    f(i,0,n){
+        in >> arr[i];
+    }
+}
+
+void array_output(ll arr[], int n){
+    f(i,0,n){
+        out << arr[i] << " ";
+    }
+}
+
+void vector_input(v<ll> arr, int n){
+    f(i,0,n){
+        in >> arr[i];
+    }
+}
+
+void vector_output(v<ll> arr, int n){
+    f(i,0,n){
+        out << arr[i] << " ";
+    }
+}

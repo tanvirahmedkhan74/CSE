@@ -1,0 +1,18 @@
+Installtion Guide for MINGW compiler for Windows using Msys2
+
+1. Download MSYS from Official Site
+https://www.msys2.org/
+
+2. After installation ,Run and Type
+pacman -S mingw-w64-ucrt-x86_64-gcc
+
+3. Update MSYS using
+pacman -Syu
+
+4. Install the Toolchain Using
+pacman -S mingw-w64-x86_64-toolchain
+
+Check gcc version on your cmd using
+gcc --version
+
+Voila! You're good to go!
